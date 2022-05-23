@@ -1,0 +1,427 @@
+
+@font-face
+{
+  font-family: poppins light;
+  src: url('./fonts/Poppins-Light.ttf');
+}
+
+
+@font-face
+{
+  font-family: poppins bold;
+  src: url('./fonts/Poppins-Bold.ttf');
+}
+
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: poppins light;
+
+}
+body
+{
+  background-image: linear-gradient(120deg,purple,#03a9f4,red);
+  background-attachment: fixed;  
+}
+
+.navbar
+{
+  top: 0;
+  position: fixed;
+}
+
+/*img
+{
+  width: 100%;
+  height: 10%;
+  margin-top: 3%;
+}*/
+
+.navbar-brand
+{
+  font-family: poppins bold;
+  
+}
+
+.form-control
+{
+  font-size: 14px;
+}
+
+
+.dropdown-menu
+{
+  font-size: 16px;background-color: rgba(0, 0, 0,.7);border-radius: 5%;
+}
+
+
+
+.h1txt1
+{
+  position: absolute;
+  margin-top: -50%;
+  margin-left: 40%;
+  color: #ffff;
+  background-image: linear-gradient(120deg,#03a9f4,#0000);
+  font-weight: bold;
+  font-size: 100%;
+  padding: 0% 9% 0% .5%;
+  border-radius: 5px;
+}
+.h2txt1
+{
+  position: absolute;
+  margin-top: -40%;
+  margin-left: 40%;
+  text-align: left;
+  color: #ffff;
+  background-image: linear-gradient(120deg,#0009,#0000);
+  font-size: 70%;
+  padding: 0% 9% 0% .5%;
+  border-radius: 5px;
+}
+
+
+
+.h1txt2
+{
+  position: absolute;
+  margin-top: -50%;
+  margin-left: -10%;
+  color: #ffff;
+  background-image: linear-gradient(120deg,#03a9f4,#0000);
+  font-weight: bold;
+  font-size: 100%;
+  padding: 0% 9% 0% .5%;
+  border-radius: 5px;
+}
+.h2txt2
+{
+  position: absolute;
+  margin-top: -40%;
+  margin-left: -10%;
+  text-align: left;
+  color: #ffff;
+  background-image: linear-gradient(120deg,#0009,#0000);
+  font-size: 70%;
+  padding: 0% 9% 0% .5%;
+  border-radius: 5px;
+}
+
+
+
+.h1txt3
+{
+  position: absolute;
+  margin-top: -50%;
+  margin-left: -10%;
+  color: #ffff;
+  background-image: linear-gradient(120deg,#03a9f4,#0000);
+  font-weight: bold;
+  font-size: 100%;
+  padding: 0% 9% 0% .5%;
+  border-radius: 5px;
+}
+.h2txt3
+{
+  position: absolute;
+  margin-top: -40%;
+  margin-left: -10%;
+  text-align: left;
+  color: #ffff;
+  background-image: linear-gradient(120deg,#0009,#0000);
+  font-size: 70%;
+  padding: 0% 9% 0% .5%;
+  border-radius: 5px;
+}
+
+
+.h1txt4
+{
+  position: absolute;
+  margin-top: -50%;
+  margin-left: 30%;
+  color: #ffff;
+  background-image: linear-gradient(120deg,#03a9f4,#0000);
+  font-weight: bold;
+  font-size: 100%;
+  padding: 0% 9% 0% .5%;
+  border-radius: 5px;
+}
+.h2txt4
+{
+  position: absolute;
+  margin-top: -40%;
+  margin-left: 30%;
+  text-align: left;
+  color: #ffff;
+  background-image: linear-gradient(120deg,#0009,#0000);
+  font-size: 70%;
+  padding: 0% 9% 0% .5%;
+  border-radius: 5px;
+}
+
+.btn.btn-primary1
+{
+	text-align:center;
+	width: 40%;
+	height: 45px;
+	font-size: 10px;
+	background-color:#ffff;
+	color: #03a9f4;
+	cursor: pointer;
+	border-radius: 7px;
+	margin: .5px 10px;
+	font-size: 20px;
+	border: 2px #03a9f4 solid;
+	transition: .3s;
+}
+
+.btn.btn-primary1:hover
+{
+	text-align:center;
+	width: 40%;
+	height: 45px;
+	background-color:#03a9f4;
+	color: #ffff;
+	margin: .5px 10px;
+	cursor: pointer;
+	border-radius: 7px;
+	border: 2px #03a9f4 solid;
+  font-size: 15px;
+}
+
+
+.btn.btn-primary2
+{
+	text-align:center;
+	width: 40%;
+	height: 45px;
+	font-size: 10px;
+	background-color:#ffff;
+	color: #03a9f4;
+	cursor: pointer;
+	border-radius: 7px;
+	margin: .5px 10px;
+	font-size: 20px;
+	border: 2px #03a9f4 solid;
+	transition: .3s;
+}
+
+.btn.btn-primary2:hover
+{
+	text-align:center;
+	width: 40%;
+	height: 45px;
+	background-color:#03a9f4;
+	color: #ffff;
+	margin: .5px 10px;
+	cursor: pointer;
+	border-radius: 7px;
+	border: 2px #03a9f4 solid;
+  font-size: 15px;
+
+}
+
+.card-img-top
+{
+  margin-top: 0%;
+  width: 100%;
+  height: 250px;
+  margin-top: 5%;
+}
+#multiCollapseExample1 , #multiCollapseExample2,#multiCollapseExample3,#multiCollapseExample4,#multiCollapseExample5,#multiCollapseExample6,#multiCollapseExample7,#multiCollapseExample8,#multiCollapseExample9,#multiCollapseExample10  /*.dropdown-item*/
+{
+  margin-bottom: 5%;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+
+
+#book1
+{
+  margin-top: 5%;
+}
+#book2
+{
+  margin-top: 5%;
+}
+.card-title
+{
+   font-size: 17px;
+   font-weight: bold;
+   border-radius: 15px;
+}
+
+/*++++++++Page 0++++++++*/
+
+.content
+{
+  background-color: white;
+  opacity: .7;
+  margin-top: 3%;
+  padding: 2%;
+  border-radius: 15px;
+}
+.content img
+{
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.text
+{
+  
+  font-size: 18px;
+  position: relative;
+}
+.h2
+{
+  font-size: 15px;
+}
+.Discover
+{
+  text-align:center;
+  width: 25%;
+  height: 50px;
+  font-size: 15px;
+  background-color: white;
+  color: #03a9f4;
+  cursor: pointer;
+  border-radius: 7px;
+  margin: .5px 10px;
+  font-size: 20px;
+  border: 2px #03a9f4 solid;
+  transition: .3s;
+}
+.Discover:hover
+{
+  text-align:center;
+  width: 25%;
+  height: 50px;
+  background-color:#03a9f4;
+  color: #ffff;
+  margin: .5px 10px;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 23px;
+  border: 2px #03a9f4 solid;
+}
+#img2
+{
+  height: 3%;
+  width: 150px;
+  margin-top: 0%;
+}
+
+
+/*++++++++Log in Modal++++++++*/
+
+.login-form h2
+{
+  text-align: left;
+  margin-bottom: 60px;
+  text-decoration:inherit;
+  padding-top: 15px;
+}
+
+.txtbox1
+{
+  position: relative;
+  widows: 90%;
+  height: 45px;
+  border: 2px #03a9f4 solid;
+  border-radius: 10px 10px 0px 0px;
+  margin: 10px 0px;
+}
+.txtbox2
+{
+  position: relative;
+  widows: 100%;
+  height: 45px;
+  border: 2px #03a9f4 solid;
+  border-radius: 0px 0px 10px 10px;
+  margin: -5px 0;
+}
+
+.logbtn
+{
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: none;
+  text-align: center;
+  background-color: #03a9f4;
+  background-size: 200%;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  margin: 30px 0;
+  transition: .5s;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.logbtn:hover
+{
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+
+
+.add_account
+{
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: none;
+  text-align: center;
+  background-color: #03a9f4;
+  background-size: 200%;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  margin: 30px 0;
+  transition: .5s;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.add_account:hover
+{
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.recover
+{
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: none;
+  text-align: center;
+  background-color: #03a9f4;
+  background-size: 200%;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  margin: 30px 0;
+  transition: .5s;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.recover:hover
+{
+  font-size: 25px;
+  border-radius: 10px;
+}
+.bottom-text
+{
+  margin-top: 60px;
+  text-align: center;
+  font-size: 13px;
+}

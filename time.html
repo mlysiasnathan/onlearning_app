@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>time out</title>
+</head>
+<body>
+<form method="post" action="page2.html" id="customForm">
+    <input type="text" name="input1"/>
+    <input type="text" name="input2"/>
+</form> 
+<button id="submit">SubmitForm</button><!-- Outside of form -->
+<script>
+    function submitForm() {
+        document.getElementById("customForm").submit()
+    }
+
+    document.getElementById('submit').onclick = function() {
+        setTimeout(submitForm, 5000); 
+    }
+</script>
+
+</body>
+</html>
